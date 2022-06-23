@@ -2,11 +2,19 @@
 
 ## Introduction
 
-A survey was given by FiveThirtyEight that utilized SurveyMonkey. This survey sought to capture respondent data regarding the Star Wars Film Series franchise. The purpose of this project will be to clean the dataset and analyze it to determine the most popular film out of the original 6 Star Wars films. 
+This project will seek to analyze the CIA World Factbook as it relates to different countries. This database contains different statistics and demographics about countries around the globe.
 
 ## Usage
 
-To see the raw dataset with all the responses, you can download it [here](https://github.com/fivethirtyeight/data). Click on the green button that says `Code` near the top right of the page. Once completed, click `Download ZIP`. After the ZIP file has been downloaded, open the file and navigate to the `data-master` folder. In the `data-master` folder scroll down to the bottom to find `star-wars-survey`. Open this folder and download the `StarWars` CSV file.
+The factbook database can be downloaded [here](https://github.com/factbook/factbook.sql/releases). Once there, click on `factbook.db`. This will download the database.
+
+Once downloaded, run the following code to connect to it:
+
+`%%capture`<br>
+`%load_ext sql`<br>
+`%sql sqlite:///factbook.db`<br>
+
+To run SQL queries in Jupyter Notebook, you must add `%%sql` at the start of every of cell.<br>
 
 The dataset will be explored using Jupyter Notebook. To run the project you will want to install Jupyter Notebook. The easiest way to do this is by installing Anaconda Navigator. This link will direct you on how to install for your appropriate operating system: Windows, Mac OS, Linux, etc. Once installed, you should have access to several applications, one of them being Jupyter Notebook.
 
