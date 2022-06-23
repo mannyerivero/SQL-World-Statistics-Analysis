@@ -1,4 +1,4 @@
-# World-Statistics-Analysis
+# SQL-World-Statistics-Analysis
 
 ## Introduction
 
