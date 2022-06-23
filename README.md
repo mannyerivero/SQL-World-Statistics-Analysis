@@ -8,7 +8,7 @@ This project will seek to analyze the CIA World Factbook as it relates to differ
 
 The factbook database can be downloaded [here](https://github.com/factbook/factbook.sql/releases). Once there, click on `factbook.db`. This will download the database.
 
-Once downloaded, run the following code to connect to it:
+Once downloaded, run the following code in a Jupyter Notebook cell to connect to it:
 
 `%%capture`<br>
 `%load_ext sql`<br>
