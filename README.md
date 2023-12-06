@@ -16,7 +16,7 @@ Once downloaded, run the following code in a Jupyter Notebook cell to connect to
 
 To run SQL queries in Jupyter Notebook, you must add `%%sql` at the start of every of cell.<br>
 
-The dataset will be explored using Jupyter Notebook. To run the project you will want to install Jupyter Notebook. The easiest way to do this is by installing Anaconda Navigator. This link will direct you on how to install for your appropriate operating system: Windows, Mac OS, Linux, etc. Once installed, you should have access to several applications, one of them being Jupyter Notebook.
+The dataset will be explored using Jupyter Notebook. To run the project you will want to install Jupyter Notebook. The easiest way to do this is by installing Anaconda Navigator. This [link](https://docs.anaconda.com/free/anaconda/install/index.html) will direct you on how to install for your appropriate operating system: Windows, Mac OS, Linux, etc. Once installed, you should have access to several applications, one of them being Jupyter Notebook.
 
 ## Brief Overview
 
